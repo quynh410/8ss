@@ -2,7 +2,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
-export default function page() {
+export default function Page() {
   const [products,setProducts]= useState<any>();
   // đi gọi API lấy data để render ra màn hình
   const handleClick=(id:number)=>{
